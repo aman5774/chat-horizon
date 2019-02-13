@@ -1,0 +1,26 @@
+{
+  "name": "chat-horizon",
+  "version": "1.0.0",
+  "description": "Chat application based on web sockets",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aman5774/chat-horizon.git"
+  },
+  "author": "Aman Bajpai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aman5774/chat-horizon/issues"
+  },
+  "homepage": "https://github.com/aman5774/chat-horizon#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "socket.io": "^2.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}

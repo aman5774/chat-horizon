@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Chat Horizon</title>
+    <link rel="stylesheet" href="/styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Chat Horizon</h1>
+      </header>
+      <section id='chat-window'>
+        <div id="output"></div>
+        <div id="feedback"></div>
+      </section>
+      <section id="message-handle">
+        <input type="text" id="handle" placeholder="Enter your name..">
+        <input type="text" id="message" placeholder="Type message here..">
+        <button type="button" id="send">Send</button>
+      </section>
+    </div>
+    <script src="/chat.js" charset="utf-8"></script>
+  </body>
+</html>
